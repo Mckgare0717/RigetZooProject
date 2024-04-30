@@ -1,0 +1,44 @@
+{
+  "zooFacilities": [
+    {
+      "name": "Safari Ride",
+      "description": "Experience a thrilling ride through the zoo's safari park, where you can see lions, elephants, and giraffes up close in their natural habitats.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-srgME_X19-UVH6c5LYcxO6vsTeUy-1j7vxI0AmOTg&s"
+    },
+    {
+      "name": "Rainforest Walk",
+      "description": "Explore the lush rainforest environment on a guided walk that offers a glimpse of exotic birds, insects, and the unique flora of the rainforest ecosystem.",
+      "image": "https://assets.visitgippsland.com.au/images/_1200x630_crop_center-center_82_none/Tarra-Bulga-National-Park_woman-walking.jpg?mtime=1626418954"
+    },
+    {
+      "name": "reptile encounter zoo activity ",
+      "description": "Get face to face with some of the world's most fascinating reptiles in a controlled environment. Learn about their habits and what makes them so important to the ecosystem.",
+      "image": "https://www.bornfree.org.uk/wp-content/uploads/2023/08/Reptile-encounter-hero-%C2%A9-Aaron-Gekoski.jpg"
+    },
+    {
+      "name": "Penguin Parade",
+      "description": "Watch the delightful parade of penguins at our specialized penguin enclosure. An educational and fun experience for all ages.",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/51/cf.jpg"
+    },
+    {
+      "name": "Butterfly Pavilion",
+      "description": "Enter a serene environment where hundreds of butterflies flutter around freely. Learn about different species of butterflies and the stages of their lifecycle.",
+      "image": "https://raisinghikers.com/wp-content/uploads/2021/04/butterfly-pavilion.jpg"
+    },
+    {
+      "name": "Children's Petting Zoo",
+      "description": "A safe and interactive zone for children to pet and learn about domestic animals such as goats, sheep, and rabbits.",
+      "image": "https://www.farmfriendz.com/css1/FarmFriends_PonyRides_2.jpg"
+    },
+    {
+      "name": "Adventure Climbing",
+      "description": "Challenge yourself with our adventure climbing courses suitable for all skill levels. Safety gear is provided and all activities are supervised by trained professionals.",
+      "image": "https://ablenet.co.uk/wp-content/uploads/2021/07/bear-grylls-climb-scaled.jpg"
+    },
+    {
+      "name": "Zoo Train Tour",
+      "description": "Board the zoo train for a comfortable tour around the zoo, perfect for families with small children or those who prefer a leisurely pace.",
+      "image": "https://www.marwell.org.uk/wp-content/uploads/2023/07/Marwell-zoo-train-ride-paul-collins.jpg"
+    }
+  ]
+}

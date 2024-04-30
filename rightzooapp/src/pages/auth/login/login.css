@@ -1,0 +1,13 @@
+.Login_Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 30%;
+    background: #FBB03B;
+    margin-left: 30%;
+    padding: 30px;
+    margin-top: 8%;
+    margin-bottom: 15%;
+    height: 100%;
+    border-radius: 30px;
+}

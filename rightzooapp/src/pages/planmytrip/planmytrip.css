@@ -1,0 +1,31 @@
+
+.booking_card p{
+    color: black;
+    font-size: medium;
+    font-size: 30px;
+
+    
+}
+
+.booking_card{
+    display: flex;
+    margin: 30px;
+    margin-top: 10%;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+    & button{
+        background-color: #7CD821;
+        color: black;
+    }
+}
+
+.plan-trip{
+    display: flex;
+    margin-left: 30px;
+    color: #7CD821;
+    font-size: xx-large;
+    & h1{
+        margin: 0;
+    }
+}

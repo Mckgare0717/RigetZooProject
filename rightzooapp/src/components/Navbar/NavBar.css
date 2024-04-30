@@ -1,0 +1,60 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: #FBB03B;
+    justify-content: left;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 10px;
+    margin: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    & h3{
+        margin: 0;
+    }
+    & h2{
+        margin: 0;
+    }
+
+
+}
+
+.nav-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+
+    & button{
+        background: none;
+        color: black;
+        border: none;
+        font-size: 16px;
+        
+    }
+
+}
+
+.auth-btns{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    
+    justify-content:end;
+    margin-top: 13px;
+
+    & button{
+        background:#7CD821;
+        color: black;
+        border: none;
+        font-size: 16px;
+        
+    }
+
+}

@@ -1,0 +1,42 @@
+.edu-cards{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 10%;
+    
+}
+.Edu-mat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Educ-maty{
+    background-color: #FBB03B;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.animal-search{
+    background: #FBB03B;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 50px;
+    margin-left: 40%;
+    width: 30%;
+    gap: 30px;
+}
+
+.modal-cont{
+    background: #FBB03B;
+}
+
+.edu-cards h6{
+    margin: 0;
+}

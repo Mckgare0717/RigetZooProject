@@ -1,0 +1,52 @@
+.Zoo-bookings{
+    background: #FBB03B;
+    width: 50%;
+    padding: 30px;
+
+}
+
+.hotel-bookngs{
+    background: #FBB03B;
+    width: 50%;
+    padding: 30px;
+}
+
+.booking-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+}
+
+.profile-info{
+    background:#FBB03B ;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 100%;
+    margin-left: 520px;
+    flex-wrap: wrap;
+}
+
+.points-info{
+    background:#FBB03B ;
+    
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 100%;
+    margin-left: 100px;
+}
+
+.dash-info{
+    display: flex;
+    flex-direction: row;
+}

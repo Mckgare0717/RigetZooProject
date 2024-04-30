@@ -1,0 +1,275 @@
+{
+    "users": [
+        {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "password": "password123",
+            "accessToken": "xyz123",
+            "points": 300,
+            "zooTickets": [],
+            "hotelBookings": []
+        },
+        {
+            "name": "Alice Smith",
+            "email": "alice@example.com",
+            "password": "secret123",
+            "accessToken": "abc456",
+            "points": 460,
+            "zooTickets": [
+                {
+                    "refid": 19796,
+                    "phno": "wfew",
+                    "address": "fwefweff",
+                    "numTickets": 3,
+                    "date": "2024-04-25",
+                    "totalPrice": 75
+                }
+            ],
+            "hotelBookings": [
+                {
+                    "refid": 59632,
+                    "phno": "tybty",
+                    "address": "bnrhbtyhtyh",
+                    "numTickets": 4,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-05",
+                    "totalRoom": 2,
+                    "totalNight": 5,
+                    "totalPrice": 900
+                },
+                {
+                    "refid": 37205,
+                    "phno": "tybty",
+                    "address": "bnrhbtyhtyh",
+                    "numTickets": 4,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-05",
+                    "totalRoom": 2,
+                    "totalNight": 5,
+                    "totalPrice": 900
+                }
+            ]
+        },
+        {
+            "name": "Bob Johnson",
+            "email": "bob@example.com",
+            "password": "qwerty456",
+            "accessToken": "def789",
+            "points": 270,
+            "zooTickets": [],
+            "hotelBookings": []
+        },
+        {
+            "name": "test",
+            "email": "test1@gmail.com",
+            "password": "test@1234",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZmZmE1ODAyLWZkNmItMTFlZS04MWUyLWY0Yzg4YWYwMDk5MSJ9.oVR9Qr0Viap_D5I2lukybOoD5l5HkgPiWKtjc2Davz8",
+            "points": 250,
+            "zooTickets": [
+                {
+                    "refid": 75881,
+                    "phno": "123456789",
+                    "address": "bytntyntynyth",
+                    "numTickets": 3,
+                    "date": "vb3t4tgbt4",
+                    "totalPrice": 3
+                }
+            ],
+            "hotelBookings": [
+                {
+                    "refid": 53087,
+                    "phno": "23456",
+                    "address": "123456",
+                    "numTickets": 4,
+                    "startDate": "vbvbrer",
+                    "endDate": "rtgrtg",
+                    "totalRoom": 2,
+                    "totalNight": 4,
+                    "totalPrice": 5
+                }
+            ]
+        },
+        {
+            "name": "test2",
+            "email": "test2@gmail.com",
+            "password": "test@12345",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjJhOGU5MDkyLWZkODYtMTFlZS1iZTM0LWY0Yzg4YWYwMDk5MSJ9.abOvpGNm0TejST4-Swh98zpp3mKv06944i7HUgGF0mg",
+            "points": 100,
+            "zooTickets": [
+                {
+                    "refid": 91974,
+                    "phno": "qd2fd2wef",
+                    "address": "2df2ff2f",
+                    "numTickets": 3,
+                    "date": "2024-04-25",
+                    "totalPrice": 75
+                },
+                {
+                    "refid": 42086,
+                    "phno": "qd2fd2wef",
+                    "address": "2df2ff2f",
+                    "numTickets": 3,
+                    "date": "2024-04-25",
+                    "totalPrice": 75
+                },
+                {
+                    "refid": 56303,
+                    "phno": "fwefqwef",
+                    "address": "qefqefqf",
+                    "numTickets": 4,
+                    "date": "2024-04-30",
+                    "totalPrice": 100
+                }
+            ],
+            "hotelBookings": [
+                {
+                    "refid": 77637,
+                    "phno": "43523234344",
+                    "address": "4r34rt34tr",
+                    "numTickets": 3,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-03",
+                    "totalRoom": 1,
+                    "totalNight": 3,
+                    "totalPrice": 405
+                },
+                {
+                    "refid": 25590,
+                    "phno": "ergerbnetbn",
+                    "address": "ebebb e",
+                    "numTickets": 3,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-06",
+                    "totalRoom": 1,
+                    "totalNight": 6,
+                    "totalPrice": 810
+                },
+                {
+                    "refid": 29105,
+                    "phno": "6j6umu",
+                    "address": "phthrehrt",
+                    "numTickets": 1,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-04",
+                    "totalRoom": 1,
+                    "totalNight": 4,
+                    "totalPrice": 180
+                }
+            ]
+        },
+        {
+            "name": "test3",
+            "email": "test3@gmail.com",
+            "password": "test@12345",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA0ZjAzMTFmLWZkODktMTFlZS04ZjllLWY0Yzg4YWYwMDk5MSJ9.WJiLh53yejaLNR3MMBIy_KN1tF-Z0xZTHymZ2Odf-rk",
+            "points": 40,
+            "zooTickets": [
+                {
+                    "refid": 55419,
+                    "phno": "efewqfqe",
+                    "address": "qefqf",
+                    "numTickets": 10,
+                    "date": "2024-04-30",
+                    "totalPrice": 250
+                }
+            ],
+            "hotelBookings": [
+                {
+                    "refid": 81761,
+                    "phno": "wdqwdqw",
+                    "address": "qdwqdf",
+                    "numTickets": 10,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-08",
+                    "totalRoom": 4,
+                    "totalNight": 8,
+                    "totalPrice": 3600
+                }
+            ]
+        },
+        {
+            "name": "test3",
+            "email": "test3@gmail.com",
+            "password": "test12345",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMwYWQwYWJlLWZkODktMTFlZS04Yjc4LWY0Yzg4YWYwMDk5MSJ9.bo2D6ClH8n8HbQ1gXY-HA2-2oBCyiiNFlMHBrvVWEno",
+            "points": 20,
+            "zooTickets": [
+                {
+                    "refid": 34244,
+                    "phno": "45647477",
+                    "address": "hjrtyjtjy",
+                    "numTickets": 5,
+                    "date": "2024-04-30",
+                    "totalPrice": 125
+                }
+            ],
+            "hotelBookings": []
+        },
+        {
+            "name": "test5",
+            "email": "test5@gmail.com",
+            "password": "test@1234",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViMDU0NDY5LTAxNzYtMTFlZi04MTYyLWY0Yzg4YWYwMDk5MSJ9.459sEBb_CPpz_UvEFB797Y0mktPAMjQ1hpvd03YroRI",
+            "points": 10,
+            "zooTickets": [],
+            "hotelBookings": []
+        },
+        {
+            "name": "mck1",
+            "email": "mck1@gmail.com",
+            "password": "test@1234",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjNjOTY2NmVkLTAxN2YtMTFlZi04MTBiLWY0Yzg4YWYwMDk5MSJ9.p5jB9opckIfGyygZZGfZ3K3QVVAOGLZZXo_ke4OkSkc",
+            "points": 20,
+            "zooTickets": [
+                {
+                    "refid": 90762,
+                    "phno": "everggertg",
+                    "address": "rgergegrgv",
+                    "numTickets": 5,
+                    "date": "2024-04-26",
+                    "totalPrice": 125
+                }
+            ],
+            "hotelBookings": []
+        },
+        {
+            "name": "test6",
+            "email": "test6@gmail.com",
+            "password": "test@12345",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY3ZjYwMzA1LTAxODktMTFlZi1hN2JhLWY0Yzg4YWYwMDk5MSJ9.NG8Envfc2Oykrew3e6eEjqxNBUXo_pxFPvuHwAxOCeQ",
+            "points": 160,
+            "zooTickets": [
+                {
+                    "refid": 89770,
+                    "phno": "33fwegwg",
+                    "address": "wgwg",
+                    "numTickets": 5,
+                    "date": "2024-04-30",
+                    "totalPrice": 125
+                }
+            ],
+            "hotelBookings": [
+                {
+                    "refid": 63607,
+                    "phno": "ergerrh",
+                    "address": "rghewrhgrhh",
+                    "numTickets": 5,
+                    "startDate": "2024-04-30",
+                    "endDate": "2024-05-01",
+                    "totalRoom": 2,
+                    "totalNight": 1,
+                    "totalPrice": 225
+                }
+            ]
+        },
+        {
+            "name": "test2",
+            "email": "test2@mmail.com",
+            "password": "test@12345",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUyYTFiYTA2LTAyZTktMTFlZi1iYjJkLWY0Yzg4YWYwMDk5MSJ9.qk1dHT9ulw_w99GENHb_BPsQFMnp92iZeezrh3J2dFI",
+            "points": 10,
+            "zooTickets": [],
+            "hotelBookings": []
+        }
+    ]
+}

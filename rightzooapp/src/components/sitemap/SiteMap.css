@@ -1,0 +1,12 @@
+.sitemap{
+    display: flex;
+    flex-direction: column;
+    background-color:#FBB03B ;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
