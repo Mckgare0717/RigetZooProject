@@ -36,7 +36,7 @@ const Education = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(()=>{
         //this call will get information about a few animals from the backend and display it on the frontend.
-        axios.get("http://localhost:8000/users/animalInfo").then((res)=>{
+        axios.get("https://rigetzooproject.onrender.com/users/animalInfo").then((res)=>{
             const animalsinformation = res.data
             setAnimals(animalsinformation.animals)
         }).catch((err)=>{

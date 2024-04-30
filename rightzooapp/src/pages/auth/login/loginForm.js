@@ -18,7 +18,7 @@ export const LoginForm = () => {
             password: password
         }
         //this function will send user data to the backend and login the user
-        axios.post("http://localhost:8000/users/login", sendData).then((res) => {
+        axios.post("https://rigetzooproject.onrender.com/users/login", sendData).then((res) => {
             console.log(res.data)
             localStorage.setItem("token",res.data.accessToken)
             navigate("/profile")

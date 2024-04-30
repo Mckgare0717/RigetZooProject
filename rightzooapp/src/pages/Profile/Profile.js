@@ -26,7 +26,7 @@ const Profile =()=>{
         const sendData = {
             access_token : aToken
         }
-        axios.post("http://localhost:8000/users/displayuser",sendData).then((res)=>{
+        axios.post("https://rigetzooproject.onrender.com/users/displayuser",sendData).then((res)=>{
             setUser(res.data)
             setzooBooking(res.data.zooTickets)
             sethotelBooking(res.data.hotelBookings)
@@ -75,7 +75,7 @@ const Profile =()=>{
                 }
                 //this call will be used to call the change password functio  from the backend
                 try{
-                    axios.post("http://localhost:8000/users/changepassword",dataSend).then(res=>{
+                    axios.post("https://rigetzooproject.onrender.com/users/changepassword",dataSend).then(res=>{
                         messageApi.open(
                         messageApi.open({type:"success",content:"password changed successfully",duration:10}))
                         setModalOpenpsswd(false)

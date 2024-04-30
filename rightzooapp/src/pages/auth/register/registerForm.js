@@ -20,7 +20,7 @@ export const Register = () =>{
             password: password
         }
         //new account registration is being sent to the backend.
-        axios.post("http://localhost:8000/users/register", sendData).then((res) => {
+        axios.post("https://rigetzooproject.onrender.com/users/register", sendData).then((res) => {
             console.log(res.data)
             localStorage.setItem("token",res.data.accessToken)
             messageApi.open({type:"success",content:"Registration successful",duration:10})

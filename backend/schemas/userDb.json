@@ -162,7 +162,7 @@
             "email": "test3@gmail.com",
             "password": "test@12345",
             "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA0ZjAzMTFmLWZkODktMTFlZS04ZjllLWY0Yzg4YWYwMDk5MSJ9.WJiLh53yejaLNR3MMBIy_KN1tF-Z0xZTHymZ2Odf-rk",
-            "points": 40,
+            "points": 80,
             "zooTickets": [
                 {
                     "refid": 55419,
@@ -171,6 +171,22 @@
                     "numTickets": 10,
                     "date": "2024-04-30",
                     "totalPrice": 250
+                },
+                {
+                    "refid": 39731,
+                    "phno": "98765432",
+                    "address": "hgd23uu23r23",
+                    "numTickets": 2,
+                    "date": "2024-05-07",
+                    "totalPrice": 50
+                },
+                {
+                    "refid": 60550,
+                    "phno": "fwefwg",
+                    "address": "wgeggg",
+                    "numTickets": 5,
+                    "date": "2024-05-15",
+                    "totalPrice": 125
                 }
             ],
             "hotelBookings": [
@@ -184,6 +200,17 @@
                     "totalRoom": 4,
                     "totalNight": 8,
                     "totalPrice": 3600
+                },
+                {
+                    "refid": 89559,
+                    "phno": "rgeger",
+                    "address": "erwgwerg",
+                    "numTickets": 5,
+                    "startDate": "2024-05-02",
+                    "endDate": "2024-05-07",
+                    "totalRoom": 2,
+                    "totalNight": 5,
+                    "totalPrice": 1125
                 }
             ]
         },
@@ -192,7 +219,7 @@
             "email": "test3@gmail.com",
             "password": "test12345",
             "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMwYWQwYWJlLWZkODktMTFlZS04Yjc4LWY0Yzg4YWYwMDk5MSJ9.bo2D6ClH8n8HbQ1gXY-HA2-2oBCyiiNFlMHBrvVWEno",
-            "points": 20,
+            "points": 40,
             "zooTickets": [
                 {
                     "refid": 34244,
@@ -203,7 +230,19 @@
                     "totalPrice": 125
                 }
             ],
-            "hotelBookings": []
+            "hotelBookings": [
+                {
+                    "refid": 20620,
+                    "phno": "rgreger",
+                    "address": "egrgher",
+                    "numTickets": 5,
+                    "startDate": "2024-05-01",
+                    "endDate": "2024-05-07",
+                    "totalRoom": 2,
+                    "totalNight": 6,
+                    "totalPrice": 1350
+                }
+            ]
         },
         {
             "name": "test5",

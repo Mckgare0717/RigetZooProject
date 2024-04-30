@@ -51,7 +51,7 @@ const HotelBook = ()=>{
         access_token:aToken,
     }
 
-    axios.post("http://localhost:8000/users/displayuser",sendData).then((res)=>{
+    axios.post("https://rigetzooproject.onrender.com/users/displayuser",sendData).then((res)=>{
             setUser(res.data)
     })
     }, [numTickets,date]);
@@ -74,7 +74,7 @@ const HotelBook = ()=>{
 
         }
 
-        axios.post("http://localhost:8000/users/hotelBookings",dataTosend).then((res) => {
+        axios.post("https://rigetzooproject.onrender.com/users/hotelBookings",dataTosend).then((res) => {
             console.log(res.data)
             setBooking(res.data) //booking data stored here
             setIsModalOpen(true) // modal is set to open to true

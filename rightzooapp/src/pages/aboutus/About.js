@@ -8,7 +8,7 @@ const AboutUs =()=>{
 
     useEffect(()=>{
         //this function will get data on facilities at the zoo from the backend and display it on the frontend
-        axios.get("http://localhost:8000/users/facilities").then((res)=>{
+        axios.get("https://rigetzooproject.onrender.com/users/facilities").then((res)=>{
             const facility = res.data.zooFacilities
             setFacilities(facility)
         }).catch((err)=>{

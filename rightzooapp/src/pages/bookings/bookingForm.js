@@ -33,7 +33,7 @@ const BookingForm=()=>{
             totalPrice:totalPrice
         }
         //connects the backend to the frontend
-        axios.post("http://localhost:8000/users/zootickets",dataTosend).then((res) => {
+        axios.post("https://rigetzooproject.onrender.com/users/zootickets",dataTosend).then((res) => {
         console.log(res.data)
         setBooking(res.data)
         messageApi.open({type:"success",content:"your ticket has been booked successfully",duration:10})
@@ -55,7 +55,7 @@ const BookingForm=()=>{
                 access_token:aToken,
             }
             //this axios call is going to get logged in user data from the backend and store it in nuser variable
-            axios.post("http://localhost:8000/users/displayuser",sendData).then((res)=>{
+            axios.post("https://rigetzooproject.onrender.com/users/displayuser",sendData).then((res)=>{
                     setUser(res.data)
             })
         } catch (error) {
