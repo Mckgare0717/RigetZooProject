@@ -14,13 +14,15 @@ import { Register } from './pages/auth/register/registerForm';
 import HotelBook from './pages/bookings/hotelBookings/HotelBook';
 import { PrivacyPolicy } from './pages/PrivacyPolicy/PrvacyPolicy';
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 function App() {
   const tokenAuth = localStorage.getItem("token")
   
 
-  
+  inject();
+  injectSpeedInsights();
   return (
     
     <div className="App">
