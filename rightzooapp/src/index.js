@@ -5,10 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { ConfigProvider } from 'antd';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <SpeedInsights>
+  <Analytics>
     <BrowserRouter>
       <ConfigProvider>
       
@@ -16,6 +20,8 @@ root.render(
         
     </ConfigProvider>
     </BrowserRouter>
+    </Analytics>
+    </SpeedInsights>
   </React.StrictMode>
 );
 
