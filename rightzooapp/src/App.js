@@ -24,8 +24,7 @@ function App() {
   return (
     
     <div className="App">
-    <Analytics>
-    <SpeedInsights>
+    
       <header>
       <NavBar/>
       </header>
@@ -45,8 +44,7 @@ function App() {
     <footer>
       <Sitemap />
     </footer>
-    </SpeedInsights>
-    </Analytics>
+    
     </div>
   );
 }
