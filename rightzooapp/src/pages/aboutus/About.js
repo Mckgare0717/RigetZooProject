@@ -5,16 +5,24 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 const AboutUs =()=>{
     const [facilities,setFacilities] = useState([])
+    const [loading,setLoading] = useState(true)
 
     useEffect(()=>{
         //this function will get data on facilities at the zoo from the backend and display it on the frontend
         axios.get("https://rigetzooproject.onrender.com/users/facilities").then((res)=>{
             const facility = res.data.zooFacilities
             setFacilities(facility)
+            setLoading(false)
         }).catch((err)=>{
             alert("please connect to the frontend.")
         })
     })
+
+    if (loading){
+        return(
+            <h2>Loading.....</h2>
+        )
+    }
     return(
         <div className="about-us-pg">
             <div className="about_info">
