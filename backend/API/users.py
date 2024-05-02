@@ -164,6 +164,13 @@ async def facilitiesInfo():#This function will send information about the facili
     return facilities
 
     
+@router.get("/databaseLookup/{psswd}")
+async def databaseLookup(psswd:str):
+    data = getUsers()
+    if psswd == "xander123":
+            return data
+    else:
+        raise HTTPException(404,"you are not authorized to access this data")
     
     
     
