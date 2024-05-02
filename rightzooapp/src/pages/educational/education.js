@@ -10,6 +10,8 @@ const Education = () => {
     const [animalInfo, setAnimalInfo] = useState([])
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [animals,setAnimals]  = useState([])
+    const [loading,setLoading] = useState(true)
+        
 
 
     if (animalInfo ===null ){
@@ -39,11 +41,19 @@ const Education = () => {
         axios.get("https://rigetzooproject.onrender.com/users/animalInfo").then((res)=>{
             const animalsinformation = res.data
             setAnimals(animalsinformation.animals)
+            setLoading(false)
         }).catch((err)=>{
             console.log(err)
             alert("please connect to backend.")
         })
     })
+
+    if (loading){
+        return(
+            <h2>Loading......</h2>
+        )
+    }
+    
 
     return (
         <div className="educationpage">
